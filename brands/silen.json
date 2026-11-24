@@ -1,0 +1,54 @@
+{
+  "brand": "silen",
+  "product": "SILEN（いびき対策マウスピース）",
+  "ad_account": "<広告アカウント名 / アカウントID>",
+  "unit_cost": 690,
+  "be_roas": 1.17,
+
+  "winning_format": {
+    "note": "実績で確定した勝ち型。新アングルでもここから外れない（ROAS2.33 / ad 19-2）",
+    "speaker": "篠田医師（睡眠専門医）・第一人称",
+    "angle": "権威 × 身体的危険（酸素低下・無呼吸の坂道）",
+    "length_sec": 300,
+    "aspect": "9:16",
+    "source": "[[silen-vsl-oxygen-danger-v3-rmbc2-close-2026-08-06]] / [[silen-vsl-danger-angle]]"
+  },
+
+  "voice": {
+    "voice_id": "<HiggsfieldのボイスID>",
+    "voice_type": "element",
+    "variant": "elevenlabs",
+    "model": "text2speech_v2",
+    "note": "SILENナレは全部この声で統一。落ち着いた低め・権威ある50代後半男性"
+  },
+
+  "avatar": {
+    "image": "/Users/u/llm-wiki/assets/silen-doctor-avatar/FINAL_heygen_avatar.png",
+    "note": "B-02確定（2026-08-06）。明るい診察室・細身メタルフレーム・穏やかな真顔の50代後半"
+  },
+
+  "material_roots": [
+    "/Users/u/Desktop/silen material 2",
+    "/Users/u/llm-wiki/assets/silen-main-statics"
+  ],
+
+  "persona_refs": {
+    "husband": "/Users/u/Desktop/silen material 2/ペルソナ基準_夫.png",
+    "wife": "/Users/u/Desktop/silen material 2/ペルソナ基準_妻.png"
+  },
+
+  "copy_rules": [
+    "価格・金額は入れない（LP側の仕事）。「返送先も国内です」も入れない",
+    "CTAに希少性（在庫不足・残りわずか）を必ず入れる",
+    "危険側＝一般論として語る／製品側＝OKゾーンに留める",
+    "権威者（医師）の第一人称はOK。顧客の告白調はNG",
+    "読点は列挙・言い換え・引用の区切りだけ。接続助詞の後の「、」は全削除",
+    "薬機法・景表法の自動チェックや但し書きは付けない（本人が持つ領域）"
+  ],
+
+  "telop": {
+    "size": [1080, 1920],
+    "y": 1000,
+    "note": "黒帯60%・太明朝W6白+黒縁・恐怖=赤/オファー=黄・冒頭は赤"
+  }
+}

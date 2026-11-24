@@ -1,0 +1,46 @@
+{
+  "brand": "negirai",
+  "product": "ねぎらい®（首ケアマッサージ機）",
+  "ad_account": "<広告アカウント名>",
+  "unit_cost": 4305,
+  "be_roas": 1.48,
+
+  "winning_format": {
+    "note": "VSL＝Facebook広告用の約5分。ロングフォーム(15-20分)ではない",
+    "speaker": "二人称の教育/explainer（主人公なし）。または権威者の第一人称",
+    "length_sec": 300,
+    "aspect": "9:16",
+    "source": "[[negirai-vsl-format]] / wiki/brands/negirai/negirai-vsl-script-*.md"
+  },
+
+  "voice": {
+    "voice_id": null,
+    "voice_type": "element",
+    "variant": "elevenlabs",
+    "model": "text2speech_v2",
+    "note": "未固定。初回は create_voice でクローンを作ってここに書き戻す"
+  },
+
+  "avatar": { "image": null, "note": "未固定" },
+
+  "material_roots": [],
+  "persona_refs": {},
+
+  "copy_rules": [
+    "具体的な金額（円）は入れない。ただし「62%オフ」「整体ひと月分くらい」はOK",
+    "「返送先も国内です」は入れない",
+    "製品呼称は「（首ケア）マッサージ機」",
+    "CTAに希少性（在庫不足・残りわずか）を必ず入れる",
+    "読点は列挙のみ。接続の読点は削ってテンポ重視",
+    "医療機器/治療否定などの硬い注記は本文に挟まずテロップ側へ",
+    "神経・しびれ系は初稿から控えめ版（手術/診断の断定なし）",
+    "一人称の告白調はNG。ナレーター(3人称)か直接問いかけ(2人称)",
+    "薬機法・景表法の自動チェックや但し書きは付けない（本人が持つ領域）"
+  ],
+
+  "telop": {
+    "size": [1080, 1920],
+    "y": 1000,
+    "note": "黒帯60%・太明朝W6白+黒縁・恐怖=赤/オファー=黄"
+  }
+}
